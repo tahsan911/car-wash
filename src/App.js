@@ -13,7 +13,7 @@ import Signup from './Pages/Signup/Signup';
 
 function App() {
   return (
-    <div>
+    <div className='bg-black'>
       <Navbar>
         <Routes>
           <Route path="/" element={<Home />} />

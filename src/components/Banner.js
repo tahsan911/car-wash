@@ -82,7 +82,7 @@ const Banner = () => {
                         </li>
                         <li
                             data-aos="fade-left"
-                            data-aos-delay="150"
+                            data-aos-delay="100"
                             data-aos-duration="1500"
                             data-aos-offset="200"
                             data-aos-easing="ease-in-sine"
@@ -99,8 +99,8 @@ const Banner = () => {
                         </li>
                         <li
                             data-aos="fade-up"
-                            data-aos-delay="200"
-                            data-aos-duration="3000"
+                            data-aos-delay="100"
+                            data-aos-duration="1500"
                             data-aos-offset="200"
                             data-aos-easing="ease-in-linear"
                             className="hover:text-primary duration-150 delay-100 my-4 text-4xl"
