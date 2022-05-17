@@ -44,6 +44,7 @@ const Navbar = ({ children }) => {
       <div className="drawer-side drawer-end">
         <label for="my-drawer-3" className="drawer-overlay"></label>
         <ul className="menu p-4 overflow-y-auto w-4/6 bg-base-100 pt-12 pl-8 ">
+          <h1 className='text-xl font-extrabold text-primary ml-4 mb-12'>Menu</h1>
           {/* <!-- Sidebar content here --> */}
           <li><NavLink className='text-white uppercase focus:text-primary bg-transparent' to="/">Home</NavLink></li>
           <li><NavLink className='text-white uppercase focus:text-primary bg-transparent' to="/Booking">Booking</NavLink></li>

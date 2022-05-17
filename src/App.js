@@ -10,6 +10,7 @@ import Login from './Pages/Login/Login';
 import Error from './Pages/Not Found/Error';
 import Product from './Pages/Products/Product';
 import Signup from './Pages/Signup/Signup';
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
           <Route path="/Cart" element={<Cart />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer />
       </Navbar>
+      
     </div>
   );
 }
